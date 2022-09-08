@@ -1,0 +1,10 @@
+[Unit]
+Description=Tints the screen for nighttime use
+
+[Service]
+Environment=XAUTHORITY=/home/guru/.Xauthority
+ExecStart=/home/guru/.scripts/night.sh
+Type=OneShot
+
+[Install]
+WantedBy=graphical.target

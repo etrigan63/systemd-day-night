@@ -1,0 +1,10 @@
+[Unit]
+Description=Night Service Timer
+
+[Timer]
+OnCalendar=*-*-* 22:00:00
+
+Persistent=true
+
+[Install]
+WantedBy=timers.target

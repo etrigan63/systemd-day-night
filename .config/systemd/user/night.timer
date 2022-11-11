@@ -1,5 +1,6 @@
 [Unit]
 Description=Night Service Timer
+Requires=night.service
 
 [Timer]
 OnCalendar=*-*-* 22:00:00

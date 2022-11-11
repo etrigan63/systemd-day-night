@@ -1,5 +1,6 @@
 [Unit]
 Description=Day Service Timer
+Requires=day.service
 
 [Timer]
 OnCalendar=*-*-* 07:00:00
